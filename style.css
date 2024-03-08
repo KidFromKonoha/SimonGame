@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins";
+  text-align: center;
+}
+.box {
+  display: grid;
+  width: min-content;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* above line 6 and 7 are same  */
+  /* gap: 10px; */
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.buton {
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  border: 5px solid black;
+}
+.one {
+  background-color: crimson;
+}
+.two {
+  background-color: darkseagreen;
+}
+.three {
+  background-color: goldenrod;
+}
+.four {
+  background-color: darkslateblue;
+}
+
+.flash {
+  /* filter: brightness(80%); */
+  background-color: white;
+  box-shadow: 0px 0px 25px gold;
+}
+.userFlash {
+  filter: brightness(80%);
+  /* background-color: white; */
+  box-shadow: 0px 0px 25px blueviolet;
+}
